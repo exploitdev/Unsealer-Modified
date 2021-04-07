@@ -40,7 +40,7 @@ namespace UnSealer.Core
                         Logger = DummyLogger.NoThrowInstance,
                         MetadataOptions = { Flags = MetadataFlags.PreserveAll }
                     };
-                    DnModule.Write(NewPath.Replace("HereWeGo", "-DnLaaibed"), MangedWriter);
+                    DnModule.Write(NewPath.Replace("HereWeGo", "-DnLibed"), MangedWriter);
                     Log.Info("Done Saved Manged Dnlib Module");
                 }
                 else
